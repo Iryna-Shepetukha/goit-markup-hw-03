@@ -14,7 +14,7 @@ button {
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 /*===============/COMMON STYLE===============*/
@@ -60,8 +60,6 @@ body {
 /*===============/HEADER STYLES===============*/
 /*===============SECTION HERO ===============*/
 .hero-section {
-  width: 1440px;
-  height: 600px;
   background-color: #2e2f42;
 }
 
@@ -122,7 +120,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  background-color: #fff;
+  background-color: #ffffff;
   color: #2e2f42;
 }
 .our-team-list-item-text {
