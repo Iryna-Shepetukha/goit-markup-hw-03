@@ -79,6 +79,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  background-color: #4d5ae5;
 }
 
 .order-servise:hover,
@@ -103,12 +104,16 @@ body {
 }
 /*===============/OUR BENEFITS===============*/
 /*=================OUR TEAM=================*/
+.our-team {
+  background-color: #f4f4fd;
+}
 .our-team-titel {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .our-team-list-titel {
@@ -117,6 +122,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  background-color: #fff;
   color: #2e2f42;
 }
 .our-team-list-item-text {
@@ -136,6 +142,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .portfolio-list-name {
@@ -154,6 +161,9 @@ body {
 }
 /*===============/OUR PORTFOLIO===============*/
 /*===================FOOTER===================*/
+.page-footer {
+  background-color: #2e2f42;
+}
 .footer-text {
   font-weight: 400;
   font-size: 16px;
@@ -161,4 +171,5 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+
 /*===================/FOOTER==================*/
