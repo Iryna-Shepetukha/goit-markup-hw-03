@@ -114,13 +114,15 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
+.our-team-list {
+  background-color: #ffffff;
+}
 .our-team-list-titel {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  background-color: #ffffff;
   color: #2e2f42;
 }
 .our-team-list-item-text {
