@@ -48,9 +48,9 @@ body {
 }
 
 .container {
-  max-width: 1158;
-  padding: 0px 15px;
-  margin: 0px auto;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /*===============/COMMON STYLE===============*/
@@ -62,6 +62,7 @@ body {
 
 .page-header-conteiner {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: row;
@@ -76,6 +77,7 @@ body {
 
 .menu {
   display: flex;
+  align-items: center;
   flex-direction: row;
   gap: 40px;
 }
@@ -89,19 +91,29 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .logo-color {
   color: #2e2f42;
 }
+
+.header-logo {
+  padding: 24px 0;
+  margin-right: 76px;
+}
+
 .menu-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .address-blok {
   font-style: normal;
+  margin-left: auto;
 }
 
 .menu-address {
@@ -112,15 +124,13 @@ body {
 }
 
 .menu-address-link {
+  display: block;
+  padding: 24px 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.menu-address-item {
-  padding: 0 24px;
 }
 
 .menu-link:hover,
