@@ -270,6 +270,7 @@ body {
 
 .portfolio-list-item {
   border: 1px solid #e7e9fc;
+  border-top: none;
   width: calc((100% - 48px) / 3);
 }
 
@@ -309,7 +310,7 @@ body {
   padding: 100px 0;
 }
 
-.logo-footer {
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
